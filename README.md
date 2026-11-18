@@ -50,6 +50,7 @@ Linux, Windows et macOS à chaque pull request et à chaque push sur `main`.
 ├── src/
 │   ├── lib.rs        # Bibliothèque : logique de communication POS
 │   └── main.rs       # Point d'entrée de l'application
+├── tests/            # Tests en boîte noire, un fichier par module testé
 ├── .github/          # CI, Dependabot, modèles d'issue et de pull request
 └── Cargo.toml
 ```

@@ -10,6 +10,7 @@ le [versionnage sémantique](https://semver.org/lang/fr/).
 ### Ajouté
 
 - Squelette du crate : bibliothèque et binaire hello world.
+- Tests en boîte noire dans `tests/`, structurés selon le modèle AAA.
 - Intégration continue : formatage, clippy, tests multiplateformes, MSRV et documentation.
 - Dependabot pour les dépendances Cargo et les actions GitHub.
 - Documentation communautaire : README, guide de contribution, code de conduite, politique de sécurité.
