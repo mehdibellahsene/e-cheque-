@@ -1,0 +1,24 @@
+name: Mutant survivant
+description: Signaler un mutant non détecté par la suite de tests
+labels: [test, mutation]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Emplacement
+      placeholder: "src/lib.rs:42"
+    validations:
+      required: true
+  - type: textarea
+    id: mutation
+    attributes:
+      label: Mutation
+      description: Sortie de l'outil de mutation décrivant le mutant survivant.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: analysis
+    attributes:
+      label: Analyse
+      description: Pourquoi les tests ne le détectent pas, et quelle assertion ajouter (ou pourquoi le mutant est équivalent).
